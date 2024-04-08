@@ -1,0 +1,209 @@
+.container {
+    height: 568px;
+    width: 568px;
+    border: 1px #000;
+    margin-left: 200px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.newspanel {
+    position: absolute;
+    height: 648px;
+    width: 482px;
+    margin-left: 780px;
+    top: 10px;
+    background-color: rgba(255, 255, 255, 0.249);
+    border-radius: 5px;
+    
+}
+
+.newsweek{
+    position: relative;
+    height: 196px;
+    width: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.blanks{
+    position: relative;
+    height: 15px;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0);
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.calander{
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: rgb(176, 234, 193);
+    border-radius: 5px;
+    margin-top: auto;
+    margin-left: auto;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+
+.row {
+    height: 71px;
+    width: 568px;
+    display: flex;
+}
+
+.black {
+    height: 71px;
+    width: 71px;
+    background-color: #769656;
+    font-weight: bold;
+    line-height: 150%;
+    color: #e8e8e8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.black-bl{
+    height: 71px;
+    width: 71px;
+    background-color: #769656;
+    font-weight: bold;
+    color: #e8e8e8;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px 0px 0px 5px;
+    line-height: 150%;
+}
+
+.black-tr{
+    height: 71px;
+    width: 71px;
+    background-color: #769656;
+    font-weight: bold;
+    color: #e8e8e8;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px 5px 0px 0px;
+    line-height: 150%;
+
+}
+
+.white {
+    height: 71px;
+    width: 71px;
+    background-color: #e8e8e8;
+    font-weight: bolder;
+    color: #769656;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+.white-edge{
+    height: 71px;
+    width: 71px;
+    background-color: #e8e8e8;
+    font-weight: bolder;
+    color: #769656;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    line-height: 150%;
+}
+
+.white-br{
+    height: 71px;
+    width: 71px;
+    background-color: #e8e8e8;
+    font-weight: bolder;
+    color: #769656;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px 0px 5px 0px;
+    line-height: 150%;
+}
+
+body {
+    background-color: #1c1c25;
+}
+
+section {
+    color: whitesmoke;
+}
+
+.buttonholder {
+    background-color: #0e0e10;
+    height: 50px;
+    width: 100px;
+    border: 1px solid #0e0e10;
+    color: antiquewhite;
+    
+}
+
+.buttonholder:hover {
+    background-color: #e4e4f1;
+}
+
+.logoholder{
+    position: fixed;  /* Fix the bar to the left side */
+    left: 0;
+    top: 0;
+    height: 100px;   /* Set height to 100% viewport height */
+    width: 200px;    /* Set width for the menu */
+    background-color: #0e0e10; 
+    align-content:space-evenly;
+}
+
+.center{
+    display: flex;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    justify-content: center;
+
+    
+}
+
+#menu-bar {
+  position: fixed;  /* Fix the bar to the left side */
+  left: 0;
+  top: 100px;
+  height: 100vh;   /* Set height to 100% viewport height */
+  width: 200px;    /* Set width for the menu */
+  background-color: #0e0e10;  /* Set background color */
+  
+}
+
+#menu-bar ul {
+  list-style: none;  /* Remove default bullet points */
+  padding: 0;
+  margin: 10px;
+  font-size: large;
+  
+}
+
+#menu-bar li {
+  padding: 15px;
+  
+  
+}
+
+#menu-bar li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-family: Montserrat
+}
+
+#menu-bar li:hover {
+  background-color: #26262b; /* Change background on 
+  hover */
+  border-radius: 5px;
+}
+
+
+
+
+
